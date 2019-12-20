@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta http-equiv="X-UV-Compatible" content="ie=edge">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body id="contact">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <!-- Photo with Alterra Academy logo-->
+            <div class="col-sm-12 col-md-5 contact-left">
+                <img src="assets/img/logo-ALTA-v2@2x.png" class="alterra-logo" />
+                <img src="assets/img/charles-rRWiVQzLm7k-unsplash.jpg" class="back-img"/>
+            </div>
+
+            <!-- Form section -->
+            <div class="col-sm-12 col-md-7 contact-form">
+                <div class="row">
+                    <div class="col-12 contact-us">Contact Us</div>
+                <form id="contact-form" action="">
+                    <div class="form-group input">
+                        <label for="Full-Name">Full Name<span class="text-danger">*</span></label>
+                        <input name="fullName" id="Full-Name" type="text" class="form-control">
+                    </div>
+                    <div class="form-group input">
+                        <label for="email">Email Address<span class="text-danger">*</span></label>
+                        <input name="email" id="email" type="email" class="form-control" placeholder="example@alterra.id">
+                    </div>
+                    <div class="form-group input">
+                        <label for="Phone-Number">Phone Number<span class="text-danger">*</span></label>
+                        <input name="phoneNumber" id="Phone-Number" type="text" class="form-control" placeholder="085554447900">
+                    </div>
+                    <div class="form-group input">
+                        <label for="Role">Role</label>
+                        <select id="Role" name="role" class="form-control">
+                            <option selected>Selected...</option>
+                            <option value="FE">Fullstack Enginner</option>
+                            <option value="QA">Quality Assurance</option>
+                        </select>
+                    </div>
+                    <div class="form-group input">
+                        <label for="Message">Message</label>
+                        <textarea rows="6" id="message" name="message" class="form-control"></textarea>
+                    </div>
+                    <div class="input button_contact">
+                        <a href="index.html" class="buttonhome">Submit</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

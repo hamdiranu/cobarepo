@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+body {
+    background-image: url("./image/sample-pattern.png");
+    margin: 0 ;
+    position: relative;
+    font-family: 'Slabo 27px', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    margin-right: 30;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #2d98c2;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 40px; 
+    color: #183069;
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px ;
+}
+
+h3 a {
+    color: #2d98c2;
+}
+
+section {
+    margin: 0 0 10 px;
+}
+
+section article {
+    text-align: justify;
+    width: 700px;
+    margin: 5px auto;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #183069;
+}
+
+footer {
+    background: black;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 50px;
+}
